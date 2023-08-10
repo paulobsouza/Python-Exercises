@@ -70,17 +70,12 @@ class FootballPlayer:
             if (_age >= 40) and (position == 'defensor'):
                 return ('O jogador está aposentado.')
             if (_age <= 40) and (position == 'defensor'):
-                return ('O jogador está aposentado.')
+                return f'Faltam {40 - _age} para o jogador se aposentar'
             if (_age >= 38) and (position == 'midfielder'):
                 return ('O jogador está aposentado.')
             if (_age <= 38) and (position == 'midfielder'):
-                return ('O jogador está aposentado.')
+                return f'Faltam {38 - _age} para o jogador se aposentar'
             if (_age >= 35) and (position == 'attacker'):
                 return ('O jogador está aposentado.')
             if (_age <= 35) and (position == 'attacker'):
-                return ('O jogador está aposentado.')
-
-        
-
-
-        
+                return f'Faltam {35 - _age} para o jogador se aposentar'
