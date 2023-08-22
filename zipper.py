@@ -6,12 +6,12 @@ def zipper(list_1, list_2):
     return [(list_1[i], list_2[i]) for i in range(max_range)]
 
 
-cities = ['Salvador', 'Ubatuba', 'Belo Horizonte']
-states = ['BA', 'SP', 'MG', 'RJ']
+x = ['a', 'b', 'c']
+y = ['1', '2', '3', '4']
 
-print(zipper(cities, states))
+print(zipper(x, y))
 
 # also
 
-print(list(zip(cities, states)))
-print(list(zip_longest(cities, states, fillvalue='No city')))
+print(list(zip(x, y)))
+print(list(zip_longest(x, y, fillvalue='Null value.')))
