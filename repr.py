@@ -25,7 +25,7 @@ class Planet:
 brazil = Country('Brazilian')
 united_kingdom = Country('English')
 
-earth = Planet('Terra')
+earth = Planet('Earth')
 mars = Planet('Mars')
 
 print(brazil)
