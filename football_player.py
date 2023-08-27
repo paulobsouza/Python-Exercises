@@ -80,12 +80,12 @@ class FootballPlayer:
      
         
 name = input('Digite o nome do jogador: ')
-player = FootballPlayer(name.upper())
+player = FootballPlayer(name.lower())
 print('Informe os dados básicos: ')
 p = input('Qual a posição do jogador? (Defensor / Meio-campista / Atacante) ').lower()
-player.position = p.upper()
+player.position = p.lower()
 n = input('Qual a nacionalidade do jogador? ')
-player.nationality = n.upper()
+player.nationality = n.lower()
 b = int(input('Quando nasceu o jogador? '))
 player.birth_date = b
 h = input('Qual a altura do jogador? ')
